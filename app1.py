@@ -1,7 +1,7 @@
 from flask import Flask,request
 import json
 import math
-#creating Flask App
+#creating Flask APP
 app = Flask(__name__)
 #signup route
 @app.route('/signup', methods=['POST'])
